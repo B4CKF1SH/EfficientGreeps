@@ -116,7 +116,7 @@ public class Greep extends Creature
             move();
         }
             
-        spit("blue");
+        spit("orange");
         checkFood();
     }
     
