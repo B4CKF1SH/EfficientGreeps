@@ -3,8 +3,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
 /**
  * A Greep is an alien creature that likes to collect tomatoes.
  * 
- * @author (your name here)
- * @version 0.1
+ * @author B4CKF1SH
+ * @version 1.0
  */
 public class Greep extends Creature
 {
