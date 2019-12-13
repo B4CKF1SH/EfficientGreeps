@@ -102,7 +102,7 @@ public class Greep extends Creature
             move();
         }
         else if (atTomatoPile()) {
-            // zur Mitte gehen
+            // go to middle of pile
             int deltaX = getOneIntersectingObject(TomatoPile.class).getX() - getX();
             int deltaY = getOneIntersectingObject(TomatoPile.class).getY() - getY();
             setRotation((int) (180 * Math.atan2(deltaY, deltaX) /Math.PI));
